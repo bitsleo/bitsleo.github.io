@@ -320,7 +320,8 @@ width: 11px;
 }
 
 #nav-arrows > a.sl-next:hover {
-    background-color: #009EE3;
+    /*background-color: #009EE3;*/
+    background-color: rgb(210, 50, 50);
     border-color: #009EE3;
     color: #fff;
 }
@@ -414,7 +415,8 @@ width: 11px;
 }
 
 .service-features {
-  background-color: #0f748f;
+  /*background-color: #0f748f;*/
+  background-color: rgba(210, 50, 50, 0.8);
   color: #fff;
   height: 335px;
   padding: 50px 0 50px 65px;
@@ -463,7 +465,8 @@ width: 11px;
 
 .project-filter ul li a:hover,
 .project-filter ul li a.active {
-    background-color: #00C7FC;
+    /*background-color: #00C7FC;*/
+    background-color: rgba(210, 50, 50, 0.8);
     color: #fff;
 }
 
@@ -550,7 +553,8 @@ figcaption.mask span {
 }
 
 .counter-section {
-  background-color: #096c89;
+  /*background-color: #096c89;*/
+    background-color: rgba(210, 50, 50, 0.8);
   padding: 25px 0 40px;
 }
 
