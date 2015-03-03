@@ -118,6 +118,12 @@ width: 11px;
     font-size: 13px;
 }
 
+.media p {
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
 .btn {
     border-radius: 0;
 }
