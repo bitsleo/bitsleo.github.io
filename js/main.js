@@ -13,7 +13,7 @@ $(function(){
 
     jQuery(window).scroll(function () {
         if (jQuery(window).scrollTop() > 400) {
-            jQuery("#navigation").css("background-color","#00C7FC");
+            jQuery("#navigation").css("background-color","rgba(210, 50, 50, 0.9)");
             jQuery("#navigation").addClass("animated-nav");
         } else {
             jQuery("#navigation").css("background-color","transparent");
