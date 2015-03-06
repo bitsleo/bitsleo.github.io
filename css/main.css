@@ -197,6 +197,8 @@ body > section {
 .navigation .navbar-nav > li.current > a {
     color: #00C7FC;
     border-bottom: 1px solid #00C7FC;
+    /*color: rgba(210, 50, 50, 0.8);*/
+    /*border-bottom: 1px solid rgba(210, 50, 50, 0.8);*/
 }
 
 .animated-nav .navigation .navbar-nav > li.current > a {
@@ -267,7 +269,8 @@ body > section {
 }
 
 .carousel-caption > div {
-    background-color: rgba(15,116,143,0.8);
+    /*background-color: rgba(15,116,143,0.8);*/
+    background-color: rgba(250, 50, 50, 0.8);
     padding: 60px 50px 80px 20%;
     position: absolute;
     top: 25%;
