@@ -391,7 +391,7 @@ body > section {
 ============================================================*/
 
 #service-bottom {
-    background-color: #1f2021;
+    background-color: #0a1217;
     padding-bottom: 0;
     position: relative;
 }
@@ -483,7 +483,7 @@ body > section {
 }
 
 .plus {
-    background: url("../img/icons/plus.png") no-repeat scroll center center rgba(250, 50, 50, 0.8);
+    background: url("../img/icons/plus.png") no-repeat scroll center center rgba(250, 50, 50, 0.9);
     border-radius: 50%;
     display: block;
     height: 80px;
