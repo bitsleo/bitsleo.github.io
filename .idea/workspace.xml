@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490ad7f4-36db-4c38-a95a-fab5282c51ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="bitsleo.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +30,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.45689654" vertical-offset="9350" max-vertical-offset="15375">
-                  <caret line="494" column="105" selection-start-line="494" selection-start-column="105" selection-end-line="494" selection-end-column="105" />
+                <state vertical-scroll-proportion="0.5862069" vertical-offset="11240" max-vertical-offset="15405">
+                  <caret line="589" column="60" selection-start-line="589" selection-start-column="60" selection-end-line="589" selection-end-column="60" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -79,8 +79,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.37458745" vertical-offset="5863" max-vertical-offset="15480">
-                  <caret line="310" column="105" selection-start-line="310" selection-start-column="105" selection-end-line="310" selection-end-column="105" />
+                <state vertical-scroll-proportion="0.7706271" vertical-offset="5863" max-vertical-offset="15525">
+                  <caret line="318" column="323" selection-start-line="318" selection-start-column="323" selection-end-line="318" selection-end-column="323" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -330,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45689654" vertical-offset="9350" max-vertical-offset="15375">
-          <caret line="494" column="105" selection-start-line="494" selection-start-column="105" selection-end-line="494" selection-end-column="105" />
+        <state vertical-scroll-proportion="0.5862069" vertical-offset="11240" max-vertical-offset="15405">
+          <caret line="589" column="60" selection-start-line="589" selection-start-column="60" selection-end-line="589" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
