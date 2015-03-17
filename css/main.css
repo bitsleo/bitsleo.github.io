@@ -392,7 +392,7 @@ body > section {
 
 #service-bottom {
     background-color: #0a1217;
-    padding-bottom: 0;
+    padding-bottom: 20px;
     position: relative;
 }
 
@@ -419,11 +419,11 @@ body > section {
     /*background-color: #0f748f;*/
     background-color: rgba(210, 50, 50, 0.8);
     color: #fff;
-    height: 335px;
+    height: 250px;
     padding: 50px 0 50px 65px;
     position: absolute;
     right: 0;
-    top: 18%;
+    top: 15%;
     width: 45%;
 }
 
@@ -437,6 +437,10 @@ body > section {
     font-size: 16px;
     line-height: 36px;
     padding-left: 50px;
+}
+
+.sponsor-logos{
+    background: white;
 }
 
 
