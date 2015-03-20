@@ -1,15 +1,15 @@
 /* ========================================================================= */
 /*  Preloader Script
-/* =========================================================================
+ /* =========================================================================
 
-window.onload = function () {
-    document.getElementById('loading-mask').style.display = 'none';
-} */
+ window.onload = function () {
+ document.getElementById('loading-mask').style.display = 'none';
+ } */
 
 $(function(){
     /* ========================================================================= */
     /*  Menu item highlighting
-    /* ========================================================================= */
+     /* ========================================================================= */
 
     jQuery(window).scroll(function () {
         if (jQuery(window).scrollTop() > 400) {
@@ -54,7 +54,7 @@ $(function(){
 
     /* ========================================================================= */
     /*  Facts count
-    /* ========================================================================= */
+     /* ========================================================================= */
 
     "use strict";
     $(".fact-item").appear(function () {
@@ -69,9 +69,9 @@ $(function(){
         })
     });
 
-/* ========================================================================= */
-/*  On scroll fade/bounce fffect
-/* ========================================================================= */
+    /* ========================================================================= */
+    /*  On scroll fade/bounce fffect
+     /* ========================================================================= */
 
     $("#testimonial").owlCarousel({
         pagination : true, // Show bullet pagination
@@ -84,18 +84,18 @@ $(function(){
 
 /* ========================================================================= */
 /*  On scroll fade/bounce fffect
-/* ========================================================================= */
+ /* ========================================================================= */
 
-    wow = new WOW({
-        animateClass: 'animated',
-        offset: 100,
-        mobile: false
-    });
-    wow.init();
+wow = new WOW({
+    animateClass: 'animated',
+    offset: 100,
+    mobile: false
+});
+wow.init();
 
 /* ---------------------------------------------------------------------- */
 /*      Progress Bars
-/* ---------------------------------------------------------------------- */
+ /* ---------------------------------------------------------------------- */
 
 initProgress('.progress');
 
@@ -107,16 +107,62 @@ function initProgress(el){
 }
 
 
-            
+
 function progress(percent, $element) {
     var progressBarWidth = 0;
-    
+
     (function myLoop (i,max) {
         progressBarWidth = i * $element.width() / 100;
-        setTimeout(function () {   
-        $element.find('div').find('small').html(i+'%');
-        $element.find('div').width(progressBarWidth);
-        if (++i<=max) myLoop(i,max);     
+        setTimeout(function () {
+            $element.find('div').find('small').html(i+'%');
+            $element.find('div').width(progressBarWidth);
+            if (++i<=max) myLoop(i,max);
         }, 10)
-    })(0,percent);  
-}   
+    })(0,percent);
+}
+
+(function movie_read(){
+
+    //ko.applyBindings(myViewModel);
+    //
+    //var myViewModel = {
+    //    personName: 'Bob',
+    //    personAge: 123
+    //};
+
+    var files = evt.target.files; // FileList object
+
+    // files is a FileList of File objects. List some properties.
+    var output = [];
+    for (var i = 0, f; f = files[i]; i++) {
+        output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
+            f.size, ' bytes, last modified: ',
+            f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a',
+            '</li>');
+    }
+    document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+
+document.getElementById('files').addEventListener('change', handleFileSelect, false);
+
+
+    var ViewModel = function(first, last) {
+        this.firstName = ko.observable(first);
+        this.lastName = ko.observable(last);
+
+        this.fullName = ko.pureComputed(function() {
+            // Knockout tracks dependencies automatically. It knows that fullName depends on firstName and lastName, because these get called when evaluating fullName.
+            return this.firstName() + " " + this.lastName();
+        }, this);
+    };
+
+    ko.applyBindings(new ViewModel("Planet", "Earth"));
+
+    $.ajax({
+        url : 'json/movie.json',
+        success : function (data) {
+            console.log(data);
+            $('#jsonData').html(JSON.stringify(data));
+            //data.forEach();
+        }
+    });
+})();
