@@ -998,3 +998,21 @@ figcaption.mask span {
 .copyright p:first-child {
     margin-bottom: 15px;
 }
+
+/*===============================================
+Notice
+===============================================*/
+.notice{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(210, 50, 50, 0.91);
+}
+
+.notice a h3{
+    color: #ffffff;
+}
+
+.notice a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
