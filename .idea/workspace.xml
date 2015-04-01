@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="490ad7f4-36db-4c38-a95a-fab5282c51ca" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="490ad7f4-36db-4c38-a95a-fab5282c51ca" name="Default" comment="" />
     <ignored path="bitsleo.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +26,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6177924">
-                  <caret line="825" column="4" selection-start-line="825" selection-start-column="4" selection-end-line="825" selection-end-column="4" />
+                <state vertical-scroll-proportion="0.44481054">
+                  <caret line="818" column="12" selection-start-line="818" selection-start-column="12" selection-end-line="818" selection-end-column="12" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -741,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6177924">
-          <caret line="825" column="4" selection-start-line="825" selection-start-column="4" selection-end-line="825" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.44481054">
+          <caret line="818" column="12" selection-start-line="818" selection-start-column="12" selection-end-line="818" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
